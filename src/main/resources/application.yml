@@ -1,0 +1,33 @@
+ server:
+   port:
+     8888
+ spring:
+   cloud:
+    config:
+      server:
+       encrypt.enabled: false
+       git:
+        uri: https://github.com/SohrabiNasrin/config-repo/
+        searchPaths: licensingservice, readinglistservice,
+
+       # username:
+       # password:
+
+
+
+# server:
+#   port: 8888
+
+# spring:
+#   profiles:
+ #     active: native
+
+ #  cloud:
+  #   config:
+  #     server:
+   #      native:
+   #        searchLocations: classpath:config/licensingservice/,
+   #                        classpath:config/readinglistservice/
+   #  encrypt:
+   #    enabled: false
+#// Using respository as backend configuration server
